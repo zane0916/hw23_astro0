@@ -8,118 +8,129 @@
     <title> Shoe buckle </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
+  <body>
   <div class="container">
     <h1> Bootstrap </h1>
     <h3> An introductory page to Bootstrap! </h3>
     <h4> By Michael Jackson (reproduced by Astro0) </h4>
-    <p> This is part of a container (note the padding on the sides). <br>
-      If you try to resize your window, the text will be adjusted according to new dimesions
+    <p>
+      Since this is part of a container, there is padding on the sides.
+      Similar to Foundation, if you resize your window, the text will adjust according to the window size.
     </p>
 
     <br>
     <br>
     <h4>Introduction</h4>
-    <p> If you already have Bootstrap in your style sheet, <a href=""> skip this section.</a> To add Bootstrap CSS to your site, add the following line of code into the head section of your html file.
+    <p> If you already have Bootstrap in your style sheet, <a href=""> skip this section.</a>
+      <br>
+      To add Bootstrap CSS to your site, add the following line of code into the head section of your html file.
       <br>
       This makes use of a Content Delivery Network (CDN).
     </p>
+    <pre style = "background-color: lightgray">
+      <xmp>
 
-    <!-- insert the code for the code about the link here -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <p> You can also download and use a local version of the CSS sheet. This is not recommended, but if you want to learn more <a href="/"> here. </a> </p>
+      </xmp>
+    </pre>
+    <p> You can also download and use a local version of the CSS sheet. This is not recommended, but if you want to learn more <a href="http://getbootstrap.com/docs/4.1/getting-started/download/"> here. </a> </p>
 
     <br>
     <br>
 
     <h4> Containers </h4>
     <p> With bootstrap, you are able to create containers that will dynamically resize and can be divided into 1-12 sections. This is written as follows: </p>
+
+    <pre style = "background-color: lightgray">
+      <xmp>
+      <div class="container">
+          <div class="row">
+    	       <div class="col-sm">
+    	          The number of times this piece is repeated is the number of columns
+    	         </div>
+             </div>
+           </div>
+      </xmp>
+    </pre>
+
+    <div class="container">
+      <div class="row">
+	<div class="col-sm">
+	  column one of four
+	</div>
+	<div class="col-sm">
+	  column two of four
+	</div>
+	<div class="col-sm">
+	  column three of four
+	</div>
+      </div>
+    </div>
+
     <br>
 
-    <!-- insert code for the codeblock here
-
     <div class="container">
       <div class="row">
 	<div class="col-sm">
-	  The number of times this piece is repeated is the number of columns
+	  column uno de cuatro
+	</div>
+	<div class="col-sm">
+	  column dos de cuatro
+	</div>
+	<div class="col-sm">
+	  column tres de cuatro
+	</div>
+	<div class="col-sm">
+	  column cuatro de cuatro
 	</div>
       </div>
     </div>
 
-    insert ending tag for codeblock here -->
-
-
-    <div class="container">
-      <div class="row">
-	<div class="col-sm">
-	  One of three columns
-	</div>
-	<div class="col-sm">
-	  One of three columns
-	</div>
-	<div class="col-sm">
-	  One of three columns
-	</div>
-      </div>
-    </div>
+    <br>
 
     <div class="container">
       <div class="row">
 	<div class="col-sm">
-	  One of four columns
+	  column 1 / 12
 	</div>
 	<div class="col-sm">
-	  One of for columns
+	  column 2 / 12
 	</div>
 	<div class="col-sm">
-	  One of cuatro columns
+	  column 3 / 12
 	</div>
 	<div class="col-sm">
-	  One of tres + uno columns
+	  column 4 / 12
+	</div>
+	<div class="col-sm">
+	  column 5 / 12
+	</div>
+	<div class="col-sm">
+	  column 6 / 12
+	</div>
+	<div class="col-sm">
+	  column 7 / 12
+	</div>
+	<div class="col-sm">
+	  column 8 / 12
+	</div>
+	<div class="col-sm">
+	  column 9 / 12
+	</div>
+	<div class="col-sm">
+	  column 10 / 12
+	</div>
+	<div class="col-sm">
+	  column 11 / 12
+	</div>
+	<div class="col-sm">
+	  column 12 / 12
 	</div>
       </div>
     </div>
-
-    <div class="container">
-      <div class="row">
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-	<div class="col-sm">
-	  One of 12 columns
-	</div>
-      </div>
-    </div>
-
+    <br>
+    <br>
     <p> The number of columns is limited to 12. As you can see below, if there are more columns than that they will wrap to the next line. </p>
 
     <div class="container">
@@ -165,7 +176,7 @@
 	</div>
       </div>
     </div>
-    
+
     <br>
     <br>
 
@@ -174,21 +185,24 @@
     <br>
     <br>
 
-    <!-- insert the code tags
-	 <button type="button" class="btn btn-XXXX">Title</button>
-	 and close here-->
+    <pre style = "background-color: lightgray">
+      <xmp>
+      <button type="button" class="btn btn-XXXX">Title</button>
+      </xmp>
+    </pre>
+
     <br>
     <br>
     <p> The different styles are displayed below with their names (what would replace XXXX in the code above). </p>
     <br>
-    <button type="button" class="btn btn-primary">primary</button>
-    <button type="button" class="btn btn-secondary">secondary</button>
-    <button type="button" class="btn btn-success">success</button>
-    <button type="button" class="btn btn-danger">danger</button>
-    <button type="button" class="btn btn-warning">warning</button>
+    <button type="button" class="btn btn-primary">default blue</button>
+    <button type="button" class="btn btn-secondary">graaaay</button>
+    <button type="button" class="btn btn-success">green!</button>
+    <button type="button" class="btn btn-danger">red</button>
+    <button type="button" class="btn btn-warning">oops warning</button>
     <button type="button" class="btn btn-info">info</button>
-    <button type="button" class="btn btn-light">light</button>
-    <button type="button" class="btn btn-dark">dark</button>
+    <button type="button" class="btn btn-light">whitttte</button>
+    <button type="button" class="btn btn-dark">blaaaaack</button>
     <br>
     <br>
     <h5> Other button styles </h5>
@@ -196,23 +210,39 @@
     </p>
     <h6> Outline buttons </h6>
 
-    <!-- again, code block -->
+    <pre style = "background-color: lightgray">
+      <xmp>
+       <button type="button" class="btn btn-outline-primary">Primary</button>
+      </xmp>
+    </pre>
 
     <button type="button" class="btn btn-outline-primary">Primary</button>
-
+    <br>
+    <br>
     <h6> Disabled buttons </h6>
 
     <button type="button" class="btn btn-disabled-primary">Primary</button>
-    <p> Try pressing the button above!
+    <br>
+    <p> Try pressing the button above! <br>
       Note: This does not prevent the button from being clicked at all costs; someone can always edit the html from their browser!
     </p>
-    
+
     <br>
     <br>
-    
+
     <h6> Buttons as a class </h6>
 
-    <!-- again, code block -->
+    <pre style = "background-color: lightgray">
+      <xmp>
+      <div class="container">
+          <div class="row">
+    	       <div class="col-sm">
+    	          The number of times this piece is repeated is the number of columns
+    	         </div>
+             </div>
+           </div>
+      </xmp>
+    </pre>
 
     <br>
 
@@ -224,3 +254,12 @@
 
     <h4> Media </h4>
     <p> Bootstrap takes care of problems with displaying media objects alongside text. </p>
+    <div class="media">
+        <img class="mr-3" src="https://ci5.googleusercontent.com/proxy/5jWShKA56xgthH08_TFadQABFW4Tj75PuXN7l2Jb6RL8hbGIzGqKWKMNfixk7doGSU1WhcjugZbm01IeLFCGUcWaqwBhUdqOZcSuQVwc=s0-d-e1-ft#https://avatars0.githubusercontent.com/u/33487727?s=120&v=4" alt="git octopus">
+            <div class="media-body">
+                <h5 class="mt-0">ZDubs' Github Icon</h5>
+                Notice how the text automatically formatted next to the image! Wowzers :)
+            </div>
+    </div>
+</body>
+</html>
