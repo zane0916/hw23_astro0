@@ -19,7 +19,208 @@
     <br>
     <br>
     <h4>Introduction</h4>
-    <p> If you already have Bootstrap in your style sheet, skip this section. To add Bootstrap CSS to your site, add the following line of code into the head section of your html file.
+    <p> If you already have Bootstrap in your style sheet, <a href=""> skip this section.</a> To add Bootstrap CSS to your site, add the following line of code into the head section of your html file.
       <br>
       This makes use of a Content Delivery Network (CDN).
     </p>
+
+    <!-- insert the code for the code about the link here -->
+
+    <p> You can also download and use a local version of the CSS sheet. This is not recommended, but if you want to learn more <a href="/"> here. </a> </p>
+
+    <br>
+    <br>
+
+    <h4> Containers </h4>
+    <p> With bootstrap, you are able to create containers that will dynamically resize and can be divided into 1-12 sections. This is written as follows: </p>
+    <br>
+
+    <!-- insert code for the codeblock here
+
+    <div class="container">
+      <div class="row">
+	<div class="col-sm">
+	  The number of times this piece is repeated is the number of columns
+	</div>
+      </div>
+    </div>
+
+    insert ending tag for codeblock here -->
+
+
+    <div class="container">
+      <div class="row">
+	<div class="col-sm">
+	  One of three columns
+	</div>
+	<div class="col-sm">
+	  One of three columns
+	</div>
+	<div class="col-sm">
+	  One of three columns
+	</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+	<div class="col-sm">
+	  One of four columns
+	</div>
+	<div class="col-sm">
+	  One of for columns
+	</div>
+	<div class="col-sm">
+	  One of cuatro columns
+	</div>
+	<div class="col-sm">
+	  One of tres + uno columns
+	</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+	<div class="col-sm">
+	  One of 12 columns
+	</div>
+      </div>
+    </div>
+
+    <p> The number of columns is limited to 12. As you can see below, if there are more columns than that they will wrap to the next line. </p>
+
+    <div class="container">
+      <div class="row">
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+	<div class="col-sm">
+	  One of 13 columns
+	</div>
+      </div>
+    </div>
+    
+    <br>
+    <br>
+
+    <h4> Buttons </h4>
+    <p> With bootstrap, you are able to create buttons of many styles without the hastle of making them look nice. This is written as follows: </p>
+    <br>
+    <br>
+
+    <!-- insert the code tags
+	 <button type="button" class="btn btn-XXXX">Title</button>
+	 and close here-->
+    <br>
+    <br>
+    <p> The different styles are displayed below with their names (what would replace XXXX in the code above). </p>
+    <br>
+    <button type="button" class="btn btn-primary">primary</button>
+    <button type="button" class="btn btn-secondary">secondary</button>
+    <button type="button" class="btn btn-success">success</button>
+    <button type="button" class="btn btn-danger">danger</button>
+    <button type="button" class="btn btn-warning">warning</button>
+    <button type="button" class="btn btn-info">info</button>
+    <button type="button" class="btn btn-light">light</button>
+    <button type="button" class="btn btn-dark">dark</button>
+    <br>
+    <br>
+    <h5> Other button styles </h5>
+    <p> Note: These can all be used with all above styles, primary is being used as an example.
+    </p>
+    <h6> Outline buttons </h6>
+
+    <!-- again, code block -->
+
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+
+    <h6> Disabled buttons </h6>
+
+    <button type="button" class="btn btn-disabled-primary">Primary</button>
+    <p> Try pressing the button above!
+      Note: This does not prevent the button from being clicked at all costs; someone can always edit the html from their browser!
+    </p>
+    
+    <br>
+    <br>
+    
+    <h6> Buttons as a class </h6>
+
+    <!-- again, code block -->
+
+    <br>
+
+    <a class="btn btn-primary" href="#" role="button">Link</a>
+    <input class="btn btn-primary" type="submit" value="Submit">
+
+    <br>
+    <br>
+
+    <h4> Media </h4>
+    <p> Bootstrap takes care of problems with displaying media objects alongside text. </p>
